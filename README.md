@@ -14,6 +14,7 @@ matches its description.
 | Skill | Description |
 |-------|-------------|
 | [`scholar-feed`](./scholar-feed/SKILL.md) | Deep CS/AI/ML research over the Scholar Feed MCP. Find, survey, read, and reason about papers: literature reviews, "recent work / SOTA in X", prior art, tracing how a method evolved, finding what supersedes a paper, comparing methods, and reading full text. Runs the deep-research loop (search → foundational lineage → cited-by → trending → full text) instead of stopping at one search, and grounds every claim in retrieved papers. |
+| [`field-guide`](./field-guide/SKILL.md) | Orient a researcher in an unfamiliar area — "I'm new to X, where do I start?" Produces a structured report: foundational papers with rationale, competing approaches and trade-offs, open problems, a sequenced reading order, and a subfield map. Composes the cheap `get_field_orientation` retrieval primitive with `search_papers` + `fetch_fulltext` deep-reads, then synthesizes the report in context so the framing adapts to the reader's background. |
 
 ## Requirements
 
